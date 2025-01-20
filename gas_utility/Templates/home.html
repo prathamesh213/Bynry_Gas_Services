@@ -1,0 +1,15 @@
+<!-- templates/home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Gas Utility</title>
+</head>
+<body>
+    <h1>Welcome to Gas Utility</h1>
+    <p>Please choose a service request:</p>
+    <ul>
+        <li><a href="{% url 'submit_request' %}">Submit Service Request</a></li>
+        <li><a href="{% url 'request_status' %}">Track Service Request Status</a></li>
+    </ul>
+</body>
+</html>
